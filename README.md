@@ -1,4 +1,4 @@
-# Gericht | Restaurent Website built with React JS
+# Gericht | Restaurant Website built with React JS
 
 This is a simple and modern style restaurant website built with React JS and CSS. It is a one page website with many different sections available which can be navigated via the navbar on top. This app is also fully mobile responsive. It was built based on the figma design kindly provided by [IqonicDesign](https://ui8.net/iqonicdesign/products/gericht-restaurant-website-ui-in-figma).
 
