@@ -1,25 +1,36 @@
-# Getting Started with Create React App
+# Gericht | Restaurant Website built with React JS
+
+This is a simple and modern style restaurant website built with React JS and CSS. It is a one page website with many different sections available which can be navigated via the navbar on top. This app is also fully mobile responsive. It was built based on the figma design kindly provided by [IqonicDesign](https://ui8.net/iqonicdesign/products/gericht-restaurant-website-ui-in-figma).
+
+![Gericht | Restaurant Website built with React JS](https://github.com/williamgrmedina/gericht-with-reactjs/blob/main/Restaurant-App-Thumbnail.png?raw=true)
+
+## 🔧 Getting Started
+
+### 📍 Installation & Setup Instructions
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+#### 1. Download this repository or clone it via Git using the commands below:
 
-In the project directory, you can run:
+    $ git clone https://github.com/williamgrmedina/gericht-with-reactjs.git
+    $ cd gericht-with-reactjs
 
-### `npm start`
+#### 2. start the development server with one of the following available scripts:
+
+    $ npm start
 
 Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Open [http://localhost:3000](http://localhost:3000) (or whatever port your reactJS app is running on) to view it in your browser.
 
 The page will reload when you make changes.\
-You may also see any lint errors in the console.
+You may also see lint errors in the console.
 
-### `npm test`
+    $ npm test
 
 Launches the test runner in the interactive watch mode.\
 See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+    $ npm run build
 
 Builds the app for production to the `build` folder.\
 It correctly bundles React in production mode and optimizes the build for the best performance.
@@ -29,42 +40,27 @@ Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+### 📍 Using the application
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+This is an "out of the box" application.\
+The only thing needed is a modern browser and a suitable OS.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## ❔ Help
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Contact me on the links below:
+* [Linkedin](linkedin.com/in/william-medina-4346351a7)
+* [E-mail](williamgrmedina@gmail.com)
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## 🛠 Languages & Tools Used
 
-## Learn More
+* ReactJS for building the UI
+* Standard CSS for styling components
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## 🕔 Version History
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+* Version 1.0 (Current)
+    * Initial Release
 
-### Code Splitting
+## 📝 Credits
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Design reference provided by [IqonicDesign](https://ui8.net/iqonicdesign/products/gericht-restaurant-website-ui-in-figma).
