@@ -15,20 +15,20 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
     $ git clone https://github.com/williamgrmedina/gericht-with-reactjs.git
     $ cd gericht-with-reactjs
 
-#### 2. start the development server with one of the following available scripts:
+#### 2. start the app with one of the following available scripts:
 
     $ npm start
 
-Runs the app in the development mode.\
+Runs the app in development mode.\
 Open [http://localhost:3000](http://localhost:3000) (or whatever port your reactJS app is running on) to view it in your browser.
 
 The page will reload when you make changes.\
-You may also see lint errors in the console.
+Note: you may also see some lint errors in the console.
 
     $ npm test
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Launches the test runner in interactive watch mode.\
+See [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
     $ npm run build
 
@@ -36,9 +36,9 @@ Builds the app for production to the `build` folder.\
 It correctly bundles React in production mode and optimizes the build for the best performance.
 
 The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+This makes your app ready to be deployed.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+See [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
 ### 📍 Using the application
 
