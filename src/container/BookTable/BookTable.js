@@ -2,7 +2,6 @@ import React from 'react';
 import { SubHeading } from '../../components';
 import Form from 'react-bootstrap/Form';
 import { IoIosArrowDown } from 'react-icons/io';
-import { BsWhatsapp } from 'react-icons/bs';
 
 import './BookTable.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -38,7 +37,7 @@ const BookTable = () => (
         </Form.Select>
       </div>
       <div style={{ marginBottom: '3rem' }}>
-        <button type='button' className='custom__button'>Book Now <BsWhatsapp/></button>
+        <button type='button' className='custom__button'>Book Now</button>
       </div>
     </div>
   </div>
