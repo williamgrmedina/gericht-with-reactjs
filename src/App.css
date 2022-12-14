@@ -2,6 +2,10 @@
   padding: 4rem 6rem;
 }
 
+.section__padding-sm {
+  padding: 4rem 12rem;
+}
+
 .flex__center {
   display: flex;
   justify-content: center;
@@ -22,6 +26,14 @@
   align-items: center;
 
   min-height: 100vh;
+}
+
+.app__wrapper-sm {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  min-width: 80vw;
 }
 
 .app__wrapper_info {
@@ -52,19 +64,26 @@
   width: 80%;
 }
 
+.custom-select {
+  color: #AAAAAA;
+  background-color: var(--color-black);
+  border-color: #f5Efdb;
+  margin: 1rem;
+}
+
 .custom__button {
   background-color: var(--color-crimson);
-    color: var(--color-black);
-    font-family: var(--font-base);
-    font-weight: 700;
-    letter-spacing: 0.04em;
-    line-height: 28px;
-    font-size: 16px;
-    padding: 0.5rem 1.5rem;
-    border-radius: 1px;
-    border: none;
-    outline: none;
-    cursor: pointer;
+  color: var(--color-black);
+  font-family: var(--font-base);
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  line-height: 28px;
+  font-size: 16px;
+  padding: 0.5rem 1.5rem;
+  border-radius: 1px;
+  border: none;
+  outline: none;
+  cursor: pointer;
 }
 
 .p__cormorant {
@@ -102,6 +121,7 @@
 }
 
 @media screen and (min-width: 2000px) {
+
   .custom__button,
   .p__cormorant {
     font-size: 37px;
@@ -151,7 +171,7 @@
   .section__padding {
     padding: 4rem 2rem;
   }
-  
+
   .p__cormorant {
     font-size: 21px;
   }

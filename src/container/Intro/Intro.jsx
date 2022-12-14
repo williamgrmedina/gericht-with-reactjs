@@ -9,7 +9,7 @@ const Intro = () => {
   //const [playVideo, setPlayVideo] = React.useState(true);
   const vidRef = React.useRef();
 
-  const callbackFunction = (entries) => {
+  const handlePlayer = (entries) => {
     const [entry] = entries
     if (entry.isIntersecting) {
       vidRef.current.play();
@@ -27,7 +27,7 @@ const Intro = () => {
       threshold: 0.1
     }
 
-    const observer = new IntersectionObserver(callbackFunction, options)
+    const observer = new IntersectionObserver(handlePlayer, options)
     if (vidRef.current) observer.observe(vidRef.current)
 
     return () => {

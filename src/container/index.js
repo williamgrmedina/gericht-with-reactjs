@@ -7,7 +7,8 @@ import Header from './Header/Header';
 import Intro from './Intro/Intro';
 import Laurels from './Laurels/Laurels';
 import Menu from './Menu/Menu';
-import Login from './Login/Login';
+import LoginComponent from './LoginComponent/LoginComponent';
+import BookTable from './BookTable/BookTable';
 
 export {
   AboutUs,
@@ -19,5 +20,6 @@ export {
   Intro,
   Laurels,
   Menu,
-  Login
+  LoginComponent,
+  BookTable
 };

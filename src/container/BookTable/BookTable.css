@@ -1,0 +1,27 @@
+.app__booktable {
+    background-color: var(--color-black);
+}
+
+.app__booktable-title {
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.app__booktable-box {
+    border-style: solid;
+    border-radius: 5px;
+    border-color: var(--color-golden);
+    flex-direction: column;
+}
+
+.booktable__options {
+    padding: 3rem 2rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.booktable__options-dropdown_arrow {
+    right: 50px;
+}

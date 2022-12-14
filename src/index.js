@@ -10,13 +10,13 @@ import {
 
 import './index.css';
 import App from './App';
-import { Login } from './container';
+import { LoginComponent } from './container';
 
 ReactDOM.render(
     <Router>
         <Routes>
             <Route path='/' element={<App/>} />
-            <Route path='/login' element={<Login/>} />
+            <Route path='/login' element={<LoginComponent/>} />
         </Routes>
     </Router>,
     document.getElementById('root')

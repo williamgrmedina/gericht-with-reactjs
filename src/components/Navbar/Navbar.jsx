@@ -26,7 +26,7 @@ const Navbar = () => {
       <div className='app__navbar-login'>
         <Link to='/login' className='p__opensans'>Login / Registration</Link>
         <div></div>
-        <a href='/' className='p__opensans'>Book Table</a>
+        <a href='#booktable' className='p__opensans'>Book Table</a>
       </div>
 
       <div className='app__navbar-smallscreen'>
