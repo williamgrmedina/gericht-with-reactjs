@@ -5,11 +5,13 @@ import { GiHamburgerMenu } from 'react-icons/gi';
 import { MdOutlineRestaurantMenu } from 'react-icons/md';
 
 import images from '../../constants/images';
+import Login from './Login';
 
 import './Navbar.css';
 
 const Navbar = () => {
   const [toggleMenu, setToggleMenu] = useState(false);
+  const loggedInUser = localStorage.getItem('user');
 
   return (
     <nav className='app__navbar'>
@@ -24,7 +26,7 @@ const Navbar = () => {
         <li className='p__opensans'><a href='#contact' class="link-light">Contact</a></li>
       </ul>
       <div className='app__navbar-login'>
-        <Link to='/login' className='p__opensans'>Login / Registration</Link>
+        <Login user={loggedInUser}></Login>
         <div></div>
         <a href='#booktable' className='p__opensans'>Book Table</a>
       </div>

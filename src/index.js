@@ -10,13 +10,13 @@ import {
 
 import './index.css';
 import App from './App';
-import { LoginComponent } from './container';
+import LoginForm from './login_page/LoginForm';
 
 ReactDOM.render(
     <Router>
         <Routes>
             <Route path='/' element={<App/>} />
-            <Route path='/login' element={<LoginComponent/>} />
+            <Route path='/login' element={<LoginForm/>} />
         </Routes>
     </Router>,
     document.getElementById('root')
