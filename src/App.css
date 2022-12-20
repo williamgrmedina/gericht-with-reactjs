@@ -64,6 +64,10 @@
   width: 80%;
 }
 
+.app__color-grey {
+  color: var(--color-grey);
+}
+
 .custom-select {
   color: #AAAAAA;
   background-color: var(--color-black);

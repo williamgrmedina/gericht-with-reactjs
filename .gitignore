@@ -24,3 +24,4 @@ yarn-error.log*
 
 #generate-react-cli
 generate-react-cli.json
+/nbproject/private/

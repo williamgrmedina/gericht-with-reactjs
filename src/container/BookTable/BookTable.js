@@ -10,7 +10,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 const BookTable = () => (
   <div className="app__booktable flex__center section__padding" id='booktable'>
-    <div className='app__booktable-box app__wrapper-sm'>
+    <div className='app__box app__wrapper-sm'>
       <div className='app__booktable-title'>
         <SubHeading title="Reservations" ></SubHeading>
         <h1 className='headtext__cormorant'>Book a Table</h1>

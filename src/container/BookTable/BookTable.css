@@ -8,13 +8,6 @@
     text-align: center;
 }
 
-.app__booktable-box {
-    border-style: solid;
-    border-radius: 5px;
-    border-color: var(--color-golden);
-    flex-direction: column;
-}
-
 .booktable__options {
     padding: 3rem 2rem;
     width: 100%;
